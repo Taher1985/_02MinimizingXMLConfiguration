@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:lang="http://www.springframework.org/schema/lang" xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-3.0.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<bean id="performer" class="_02_com.spring.autowiringByType._03Instrumentalist" autowire="byType" />
+
+	<!-- primary="true" means container preferred bean as primary while autowiringByType -->
+	<bean id="saxophone" class="_02_com.spring.autowiringByType._04Saxophone" primary="true" />
+	
+	<bean id="drum" class="_02_com.spring.autowiringByType._05Drum" />
+	
+	<!-- primary="true" gets priority over autowire-candidate="true" -->	
+	<bean id="guitar" class="_02_com.spring.autowiringByType._06Guitar" autowire-candidate="true" />
+	
+	<!-- autowire-candidate="false" means container can't take bean into consideration while autowiringByType -->
+	<bean id="violin" class="_02_com.spring.autowiringByType._07Voilin" autowire-candidate="false" />
+	
+	
+
+</beans>
