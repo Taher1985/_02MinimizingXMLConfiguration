@@ -1,4 +1,4 @@
-package _10com.spring.customJSRInjectQualifier;
+package _10_com.spring.customJSRInjectQualifier;
 
 import javax.inject.Inject;
 

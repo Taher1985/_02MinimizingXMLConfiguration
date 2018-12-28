@@ -1,4 +1,4 @@
-package _10com.spring.customJSRInjectQualifier;
+package _10_com.spring.customJSRInjectQualifier;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

@@ -1,4 +1,4 @@
-package _10com.spring.customJSRInjectQualifier;
+package _10_com.spring.customJSRInjectQualifier;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
