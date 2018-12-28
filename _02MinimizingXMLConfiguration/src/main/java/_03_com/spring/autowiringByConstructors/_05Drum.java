@@ -1,4 +1,4 @@
-package _02_com.spring.autowiringByType;
+package _03_com.spring.autowiringByConstructors;
 
 public class _05Drum implements _02Instrument {
 
