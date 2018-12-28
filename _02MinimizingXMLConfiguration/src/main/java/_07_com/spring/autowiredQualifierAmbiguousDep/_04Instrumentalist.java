@@ -12,11 +12,16 @@ public class _04Instrumentalist implements _01Performer {
 	@Autowired
 	@Qualifier("tootoot")
 	private _02Instrument instrumentSaxophone;
+	
+	@Autowired
+	@Qualifier("guitarQualifier")
+	private _02Instrument instrumentGuitar;
 
 
 	public void perform() {
 		instrumentDrum.play();
 		instrumentSaxophone.play();
+		instrumentGuitar.play();
 	}
 
 }

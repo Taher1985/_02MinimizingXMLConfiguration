@@ -19,5 +19,6 @@
 
 	<bean id="drum" class="_07_com.spring.autowiredQualifierAmbiguousDep._06Drum" />
 
-
+	<bean id="guitar" class="_07_com.spring.autowiredQualifierAmbiguousDep._07Guitar" />
+	
 </beans>
