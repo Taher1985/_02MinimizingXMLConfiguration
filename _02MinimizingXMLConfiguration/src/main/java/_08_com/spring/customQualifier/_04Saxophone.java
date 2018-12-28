@@ -1,6 +1,6 @@
 package _08_com.spring.customQualifier;
 
-@StringnedInstrument
+@_07StringnedInstrument
 public class _04Saxophone implements _02Instrument {
 
 	@Override

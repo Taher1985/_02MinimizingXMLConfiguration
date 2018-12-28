@@ -1,7 +1,7 @@
 package _08_com.spring.customQualifier;
 
-@StringnedInstrument
-@Strummed
+@_07StringnedInstrument
+@_08Strummed
 public class _05Drum implements _02Instrument {
 
 	@Override

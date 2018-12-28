@@ -10,6 +10,6 @@ import org.springframework.beans.factory.annotation.Qualifier;
 @Target({ ElementType.FIELD, ElementType.PARAMETER, ElementType.TYPE })
 @Retention(RetentionPolicy.RUNTIME)
 @Qualifier
-public @interface StringnedInstrument {
+public @interface _07StringnedInstrument {
 
 }
