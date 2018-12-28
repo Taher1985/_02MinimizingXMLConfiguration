@@ -5,8 +5,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class _03nstrumentalist implements _01Performer {
 
 	@Autowired
-	@_07StringnedInstrument
-	@_08Strummed
+	@StringnedInstrument
+	@Strummed
 	private _02Instrument instrument;
 
 
