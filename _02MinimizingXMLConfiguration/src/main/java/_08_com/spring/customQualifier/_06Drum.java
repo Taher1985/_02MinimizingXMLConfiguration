@@ -1,4 +1,4 @@
-package _07_com.spring.autowiredQualifierAmbiguousDep;
+package _08_com.spring.customQualifier;
 
 public class _06Drum implements _02Instrument {
 

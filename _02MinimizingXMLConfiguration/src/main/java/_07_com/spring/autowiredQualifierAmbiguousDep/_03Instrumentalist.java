@@ -3,7 +3,7 @@ package _07_com.spring.autowiredQualifierAmbiguousDep;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 
-public class _04Instrumentalist implements _01Performer {
+public class _03Instrumentalist implements _01Performer {
 
 	@Autowired
 	@Qualifier("drum")

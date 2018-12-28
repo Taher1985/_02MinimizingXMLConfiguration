@@ -1,4 +1,4 @@
-package _07_com.spring.autowiredQualifierAmbiguousDep;
+package _08_com.spring.customQualifier;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

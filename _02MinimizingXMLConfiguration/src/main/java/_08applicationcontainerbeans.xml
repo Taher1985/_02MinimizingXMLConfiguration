@@ -10,15 +10,15 @@
 
 	<context:annotation-config />
 
-	<bean id="performer" class="_07_com.spring.autowiredQualifierAmbiguousDep._03Instrumentalist">
+	<bean id="performer" class="_07_com.spring.autowiredQualifierAmbiguousDep._04Instrumentalist">
 	</bean>
 
-	<bean id="saxophone" class="_07_com.spring.autowiredQualifierAmbiguousDep._04Saxophone">
+	<bean id="saxophone" class="_07_com.spring.autowiredQualifierAmbiguousDep._05Saxophone">
 		<qualifier value="tootoot"/>
 	</bean>
 
-	<bean id="drum" class="_07_com.spring.autowiredQualifierAmbiguousDep._05Drum" />
+	<bean id="drum" class="_07_com.spring.autowiredQualifierAmbiguousDep._06Drum" />
 
-	<bean id="guitar" class="_07_com.spring.autowiredQualifierAmbiguousDep._06Guitar" />
+	<bean id="guitar" class="_07_com.spring.autowiredQualifierAmbiguousDep._07Guitar" />
 	
 </beans>
