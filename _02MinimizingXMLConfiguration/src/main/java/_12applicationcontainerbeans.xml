@@ -8,12 +8,6 @@
 		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
-	<context:annotation-config />
-
-	<bean id="performer" class="_10_com.spring.customJSRInjectQualifier._03Instrumentalist" />
-
-	<bean id="saxophone" class="_10_com.spring.customJSRInjectQualifier._04Saxophone" />
-
-	<bean id="drum" class="_10_com.spring.customJSRInjectQualifier._05Drum" />
+	<context:component-scan base-package="_*com.spring.*" />
 
 </beans>

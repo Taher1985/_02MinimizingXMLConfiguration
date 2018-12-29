@@ -2,7 +2,7 @@ package _10_com.spring.customJSRInjectQualifier;
 
 import javax.inject.Inject;
 
-public class _03nstrumentalist implements _01Performer {
+public class _03Instrumentalist implements _01Performer {
 
 	@Inject
 	@StringnedInstrument

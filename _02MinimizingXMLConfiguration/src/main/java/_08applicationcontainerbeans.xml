@@ -10,7 +10,7 @@
 
 	<context:annotation-config />
 
-	<bean id="performer" class="_08_com.spring.customQualifier._03nstrumentalist" />
+	<bean id="performer" class="_08_com.spring.customQualifier._03Instrumentalist" />
 
 	<bean id="saxophone" class="_08_com.spring.customQualifier._04Saxophone" />
 

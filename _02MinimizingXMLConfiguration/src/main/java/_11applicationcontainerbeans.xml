@@ -11,6 +11,6 @@
 	<context:annotation-config />
 	<context:property-placeholder location="classpath:application.properties"/>
 	
-	<bean id="performer" class="_11_com.spring.usingExpressionWithAnnotationInjection._02nstrumentalist" />
+	<bean id="performer" class="_11_com.spring.usingExpressionWithAnnotationInjection._02Instrumentalist" />
 
 </beans>

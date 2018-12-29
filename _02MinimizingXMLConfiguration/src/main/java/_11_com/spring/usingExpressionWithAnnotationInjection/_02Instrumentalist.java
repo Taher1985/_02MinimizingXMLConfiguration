@@ -2,7 +2,7 @@ package _11_com.spring.usingExpressionWithAnnotationInjection;
 
 import org.springframework.beans.factory.annotation.Value;
 
-public class _02nstrumentalist implements _01Performer {
+public class _02Instrumentalist implements _01Performer {
 
 	@Value("DillDiyaGalla")
 	private String song;
