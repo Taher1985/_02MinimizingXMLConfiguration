@@ -12,12 +12,16 @@ public class _04JavaConfig {
 
 	@Bean
 	public _01Performer instrumentalist() {
-		return new _05Instrumentalist(saxophone(), "Dill");
+		_05Instrumentalist instrumentalist = new _05Instrumentalist();
+		instrumentalist.setInstrument(saxophone());
+		instrumentalist.setPoem(tonnet());
+		return instrumentalist;
 	}
 
 	@Bean
 	public _01Performer poeticInstrumentalist() {
-		return new _06PoeticInstrumentalist(sonnet(), saxophone());
+		_06PoeticInstrumentalist poeticInstrumentalist = new _06PoeticInstrumentalist(sonnet(), drum());
+		return poeticInstrumentalist;
 	}
 
 	@Bean
