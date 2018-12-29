@@ -9,7 +9,7 @@ public class _06Client {
 		ApplicationContext context = new ClassPathXmlApplicationContext(
 				"/_12applicationcontainerbeans.xml");
 
-		_01Performer performer = (_01Performer) context.getBean("performer");
+		_01Performer performer = (_01Performer) context.getBean("_03Instrumentalist");
 		performer.perform();
 	}
 
