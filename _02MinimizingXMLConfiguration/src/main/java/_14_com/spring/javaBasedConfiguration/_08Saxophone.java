@@ -1,6 +1,6 @@
 package _14_com.spring.javaBasedConfiguration;
 
-public class _06Saxophone implements _02Instrument {
+public class _08Saxophone implements _02Instrument {
 
 	@Override
 	public void play() {

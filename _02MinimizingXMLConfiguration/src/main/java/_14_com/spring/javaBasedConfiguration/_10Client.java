@@ -3,7 +3,7 @@ package _14_com.spring.javaBasedConfiguration;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class _07Client {
+public class _10Client {
 
 	public static void main(String[] args) {
 		ApplicationContext context = new ClassPathXmlApplicationContext(

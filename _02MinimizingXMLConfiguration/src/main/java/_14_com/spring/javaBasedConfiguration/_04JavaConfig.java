@@ -4,24 +4,24 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class _03JavaConfig {
+public class _04JavaConfig {
 
-	public _03JavaConfig() {
+	public _04JavaConfig() {
 		super();
 	}
 
 	@Bean
 	public _01Performer instrumentalist() {
-		return new _04Instrumentalist();
+		return new _05Instrumentalist(saxophone(), "Dill");
 	}
 
 	@Bean
 	public _02Instrument saxophone() {
-		return new _06Saxophone();
+		return new _08Saxophone();
 	}
-	
+
 	@Bean
 	public _02Instrument drum() {
-		return new _05Drum();
+		return new _07Drum();
 	}
 }
