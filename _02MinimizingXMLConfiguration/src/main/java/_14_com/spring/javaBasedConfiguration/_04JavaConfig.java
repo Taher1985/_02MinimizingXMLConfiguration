@@ -16,6 +16,11 @@ public class _04JavaConfig {
 	}
 
 	@Bean
+	public _01Performer poeticInstrumentalist() {
+		return new _06PoeticInstrumentalist(sonnet(), saxophone());
+	}
+
+	@Bean
 	public _02Instrument saxophone() {
 		return new _08Saxophone();
 	}
@@ -23,5 +28,15 @@ public class _04JavaConfig {
 	@Bean
 	public _02Instrument drum() {
 		return new _07Drum();
+	}
+
+	@Bean
+	public _03Poem tonnet() {
+		return new _09Tonnet();
+	}
+
+	@Bean
+	public _03Poem sonnet() {
+		return new _10Sonnet();
 	}
 }

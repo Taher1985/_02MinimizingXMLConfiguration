@@ -16,6 +16,7 @@ public class _05Instrumentalist implements _01Performer {
 	private String song;
 	
 	@Autowired
+	@Qualifier("tonnet")
 	private _03Poem poem;
 	
 	public _05Instrumentalist() {
